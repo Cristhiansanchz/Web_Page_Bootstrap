@@ -1,0 +1,125 @@
+/* Generales */
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.titles-sections {
+    color: #33058d;
+}
+
+.p-sections {
+    color: #777777;
+}
+
+/* Header */
+
+#header {
+    background-color:#094977;
+}
+
+#header a {
+    color: white;
+}
+
+#header img {
+    width: 60px;
+}
+
+.text-nayad {
+    color: yellow !important;
+}
+
+/* Titulo principal y botón */
+
+#main h1 {
+    font-size: 70px;
+}
+
+#main-background img,
+#benef-background img,
+#company-background img {
+    max-height: 40vh;
+    object-fit: cover;
+}
+
+#main-background,
+#benef-background,
+#company-background {
+    position: relative;
+}
+
+#main-background .overlay,
+#benef-background .overlay,
+#company-background .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+
+#main-background .overlay .container,
+#main-background .overlay .row,
+#benef-background .overlay .container,
+#benef-background .overlay .row,
+#company-background .overlay .container,
+#company-background .overlay .row {
+    height: 100%;
+}
+
+
+/* Sección Soluciones */
+
+#solutions h1 {
+    font-size: 35px;
+}
+
+.p-prales {
+    font-size: 20px;
+    color: #777777;
+}
+
+#solutions img,
+#company img {
+    max-width: 100%;
+}
+
+.img-solutions {
+    box-shadow: 1px 1px 10px gray;
+}
+
+/* Sección Características */
+
+#benef-background img,
+#company-background img {
+    max-height: 10vh;
+}
+
+/* Compañia*/
+
+#company h1 {
+    font-size: 35px;
+}
+
+/* Sección Asesoría */
+
+#consultancy {
+    background-image: url(img/company-background.jpg);
+    color: #ffffff;
+}
+
+#consultancy h1 {
+    font-size: 28px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #094977;
+}
+
+#footer p {
+    color: #ffffff;
+}
